@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connexion - Site Vitrine</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Site Vitrine</h1>
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="about.html">À propos</a>
+            <a href="index.html#services">Services</a>
+            <a href="contact.html">Contact</a>
+            <a href="login.html">Connexion</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="login-section">
+            <h2>Espace Connexion</h2>
+            <form action="#" method="POST" class="login-form">
+                <div>
+                    <label for="email">Adresse E-mail :</label><br>
+                    <input type="email" id="email" name="email" required placeholder="nom@example.com">
+                </div>
+                <br>
+                <div>
+                    <label for="password">Mot de passe :</label><br>
+                    <input type="password" id="password" name="password" required placeholder="••••••••">
+                </div>
+                <br>
+                <button type="submit">Se connecter</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Site Vitrine - Tous droits réservés.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
